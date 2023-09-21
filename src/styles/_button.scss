@@ -8,6 +8,9 @@
  &.button-success{
     background-color: $blue;
   }
+  &.button-success{
+    background-color: $blue;
+  }
   &.button-sm{
     width: 54px ;
     height: 54px ;
@@ -17,5 +20,10 @@
   }
   &.button-lg{
     min-width: 483px ;
+  }
+  &.button-icon-search{
+    background-image: url("../assets/images/icons/search.svg");
+    background-repeat:  no-repeat;
+    background-position: center;
   }
 }
