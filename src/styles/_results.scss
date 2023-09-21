@@ -1,0 +1,31 @@
+.results {
+  display: grid;
+  grid-template-columns: 0.35fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 58px 41px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "results__header results__header"
+    "results__left results__right";
+
+  border-radius: 25px;
+  background: $white;
+
+  box-shadow: 0 0 35px 0 rgba(66, 98, 180, 0.10);
+
+  padding: 66px 88px;
+  margin-top: 86px;
+}
+
+.results__header {
+  grid-area: results__header;
+
+}
+
+.results__left {
+  grid-area: results__left;
+}
+
+.results__right {
+  grid-area: results__right;
+}
