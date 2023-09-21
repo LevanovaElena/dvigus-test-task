@@ -1,0 +1,21 @@
+.button{
+  border-radius: 10px;
+  color:$white;
+  @include font-normal-inter($font-size: 16px,$font-color:$white);
+  font-weight: 600;
+  padding: 13px 24px;
+  max-height: 52px;
+ &.button-success{
+    background-color: $blue;
+  }
+  &.button-sm{
+    width: 54px ;
+    height: 54px ;
+  }
+  &.button-md{
+    min-width: 164px ;
+  }
+  &.button-lg{
+    min-width: 483px ;
+  }
+}

@@ -1,0 +1,13 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 5px 0;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+.main { grid-area: main; }
+.header { grid-area: header; }

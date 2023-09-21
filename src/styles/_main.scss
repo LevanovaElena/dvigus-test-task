@@ -1,0 +1,15 @@
+
+body {
+  @include font-normal-dm_sans($font-size: 18px,$font-color:$gray-700);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  height: 100vh;
+}
+h1 {
+  @include font-bold-inter($font-size: 36px,$font-color:$gray-700);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
