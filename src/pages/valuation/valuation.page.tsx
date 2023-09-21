@@ -1,11 +1,15 @@
 import React from "react";
 import {InternalLayout} from "../../components/internal-layout/internal-layout.component";
+import {Banner} from "../../components/banner/banner.component";
+import {OptionFiltersFlat} from "../../components/option-filters-flat/option-filters-flat.component";
 export const PageValuation= (): React.JSX.Element => {
     return (
         <InternalLayout>
-            <main>
-                Hi
-            </main>
+           <>
+               <Banner>
+                   <OptionFiltersFlat/>
+               </Banner>
+           </>
         </InternalLayout>
     );
 }

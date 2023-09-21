@@ -1,0 +1,59 @@
+.input-field {
+
+  .input-field__label {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+
+  .input-field__icon {
+    position: relative;
+
+    &.input-field__icon_place::before {
+      width: 1rem;
+      background-image: url("../assets/images/icons/place.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    &.input-field__icon_none {
+      .input-field__input{
+        padding-left:0 !important;
+      }
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      display: flex;
+      align-items: center;
+      bottom: 0;
+      left: 0.625rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .input-field__input {
+    padding-left: 2rem;
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    @include font-normal-inter($font-size: 16px, $font-color: $gray-600);
+    background-color: $white;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: none;
+
+    &:focus {
+      border: none;
+    }
+
+    &:disabled,
+    &[readonly] {
+      background-color: transparent;
+      opacity: 1;
+    }
+  }
+
+}

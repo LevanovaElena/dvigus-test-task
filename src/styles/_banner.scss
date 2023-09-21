@@ -1,0 +1,17 @@
+.banner {
+  border-radius: 25px;
+  background-color: $gray-400;
+  padding: 53px 89px;
+  width: 100%;
+  height: auto;
+
+  .banner__caption{
+    max-width: 90%;
+  }
+  .banner__text {
+    margin: 38px 0;
+    @include font-normal-inter($font-size: 22px, $font-color: $gray-800);
+    max-width: 70%;
+  }
+
+}
