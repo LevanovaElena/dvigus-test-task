@@ -125,7 +125,6 @@ time,
 mark,
 audio,
 video {
-  font-size: 100%;
   font: inherit;
   margin: 0;
   padding: 0;
@@ -165,7 +164,6 @@ q {
 
   &:before,
   &:after {
-    content: '';
     content: none;
   }
 }
