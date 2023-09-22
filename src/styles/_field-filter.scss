@@ -4,7 +4,8 @@
   justify-content: space-around;
 
   .field-filter__caption {
-    @include font-bold-inter($font-size: 18px, $font-color: $gray-900);
+    @include font-normal-inter($font-size: 18px, $font-color: $gray-900);
     font-weight: 600;
   }
+
 }
