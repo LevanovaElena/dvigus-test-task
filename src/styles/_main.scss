@@ -10,9 +10,11 @@ body {
 
 h1 {
   @include font-bold-inter($font-size: 56px, $font-color: $gray-900);
+  font-weight: bold;
 }
 h2 {
   @include font-bold-inter($font-size: 48px, $font-color: $gray-900);
+  font-weight: bold;
 }
 h3 {
   @include font-bold-inter($font-size: 36px, $font-color: $gray-900);
@@ -21,4 +23,8 @@ h3 {
 .main {
   grid-area: main;
   padding: 0 70px;
+}
+
+.my-21{
+  margin:21px 0;
 }

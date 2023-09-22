@@ -7,10 +7,9 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Inter";
-  src: url("../assets/fonts/inter/InterRegular.woff") format("woff"),
-  url("../assets/fonts/inter/Inter-Regular.ttf") format("truetype");
-  font-weight: 400;
+  font-family: "Inter Bold";
+  src: url("../assets/fonts/inter/Inter-ExtraBold.ttf") format("truetype");
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -31,7 +30,7 @@
 }
 
 @mixin font-bold-inter($font-size,$font-color) {
-  font-family: 'Inter',  sans-serif;
+  font-family: 'Inter Bold',  sans-serif;
   font-weight: 700;
   font-size: $font-size;
   color: $font-color;
