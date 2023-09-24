@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/dvigus-test-task/static/css/main.88285607.css",
+    "main.js": "/dvigus-test-task/static/js/main.220d2aab.js",
+    "static/js/787.564b90e3.chunk.js": "/dvigus-test-task/static/js/787.564b90e3.chunk.js",
+    "static/media/Inter-ExtraBold.ttf": "/dvigus-test-task/static/media/Inter-ExtraBold.4164cfba15dbca5f37aa.ttf",
+    "static/media/Inter-Regular.ttf": "/dvigus-test-task/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "static/media/MontserratExtraBold.ttf": "/dvigus-test-task/static/media/MontserratExtraBold.b28c62461254c50ec30e.ttf",
+    "static/media/InterRegular.woff": "/dvigus-test-task/static/media/InterRegular.0d6f7c99e635f1fec4c9.woff",
+    "static/media/MontserratExtraBold.woff": "/dvigus-test-task/static/media/MontserratExtraBold.2733814d28bef249071b.woff",
+    "static/media/city.jpg": "/dvigus-test-task/static/media/city.9a461540f3296e23edf4.jpg",
+    "static/media/DMSansRegular.ttf": "/dvigus-test-task/static/media/DMSansRegular.96d887177cb80224e4fd.ttf",
+    "static/media/DMSansRegular.woff": "/dvigus-test-task/static/media/DMSansRegular.c8cea20c75698a9e12b5.woff",
+    "static/media/logo.svg": "/dvigus-test-task/static/media/logo.fa3f1bc6b4cda0a53421ef1b247c5107.svg",
+    "index.html": "/dvigus-test-task/index.html",
+    "static/media/arrow-down-bold.svg": "/dvigus-test-task/static/media/arrow-down-bold.939f6dc8875bf3a3c5b6.svg",
+    "static/media/arrow-up-bold.svg": "/dvigus-test-task/static/media/arrow-up-bold.b8094f16c47a060b2680.svg",
+    "static/media/place.svg": "/dvigus-test-task/static/media/place.884e84d857ea305a370a.svg",
+    "static/media/information-circle-contained.svg": "/dvigus-test-task/static/media/information-circle-contained.c7c6835c10599b75d3945cd1d69a3fd0.svg",
+    "static/media/search.svg": "/dvigus-test-task/static/media/search.cbfa42fddce0cb8854c4.svg",
+    "static/media/arrow-up.svg": "/dvigus-test-task/static/media/arrow-up.07f9c66a470d17a98ad3.svg",
+    "static/media/arrow-down.svg": "/dvigus-test-task/static/media/arrow-down.6d787bcaa04b0ba7c7e0.svg",
+    "main.88285607.css.map": "/dvigus-test-task/static/css/main.88285607.css.map",
+    "main.220d2aab.js.map": "/dvigus-test-task/static/js/main.220d2aab.js.map",
+    "787.564b90e3.chunk.js.map": "/dvigus-test-task/static/js/787.564b90e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88285607.css",
+    "static/js/main.220d2aab.js"
+  ]
+}
