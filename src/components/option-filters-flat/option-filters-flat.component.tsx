@@ -4,10 +4,7 @@ import {Button} from "../button/button.component";
 import {InputField} from "../input/input.component";
 import {InputDropdown} from "../input-dropdown/input-dropdown.component";
 
-type OptionFiltersFlatProps = {
-    flat?: string;
-}
-export const OptionFiltersFlat = ({flat,}: OptionFiltersFlatProps): React.JSX.Element => {
+export const OptionFiltersFlat = (): React.JSX.Element => {
     return (
         <section className='option-filters'>
             <div className='option-filters__adress'>
