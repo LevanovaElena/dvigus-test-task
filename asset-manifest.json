@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dvigus-test-task/static/css/main.88285607.css",
-    "main.js": "/dvigus-test-task/static/js/main.220d2aab.js",
+    "main.css": "/dvigus-test-task/static/css/main.bef0a00e.css",
+    "main.js": "/dvigus-test-task/static/js/main.9405ee40.js",
     "static/js/787.564b90e3.chunk.js": "/dvigus-test-task/static/js/787.564b90e3.chunk.js",
     "static/media/Inter-ExtraBold.ttf": "/dvigus-test-task/static/media/Inter-ExtraBold.4164cfba15dbca5f37aa.ttf",
     "static/media/Inter-Regular.ttf": "/dvigus-test-task/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
@@ -20,12 +20,12 @@
     "static/media/search.svg": "/dvigus-test-task/static/media/search.cbfa42fddce0cb8854c4.svg",
     "static/media/arrow-up.svg": "/dvigus-test-task/static/media/arrow-up.07f9c66a470d17a98ad3.svg",
     "static/media/arrow-down.svg": "/dvigus-test-task/static/media/arrow-down.6d787bcaa04b0ba7c7e0.svg",
-    "main.88285607.css.map": "/dvigus-test-task/static/css/main.88285607.css.map",
-    "main.220d2aab.js.map": "/dvigus-test-task/static/js/main.220d2aab.js.map",
+    "main.bef0a00e.css.map": "/dvigus-test-task/static/css/main.bef0a00e.css.map",
+    "main.9405ee40.js.map": "/dvigus-test-task/static/js/main.9405ee40.js.map",
     "787.564b90e3.chunk.js.map": "/dvigus-test-task/static/js/787.564b90e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88285607.css",
-    "static/js/main.220d2aab.js"
+    "static/css/main.bef0a00e.css",
+    "static/js/main.9405ee40.js"
   ]
 }
