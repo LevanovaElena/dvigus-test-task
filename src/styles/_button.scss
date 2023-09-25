@@ -1,29 +1,48 @@
-.button{
+.button {
   border-radius: 10px;
-  color:$white;
-  @include font-normal-inter($font-size: 16px,$font-color:$white);
+  color: $white;
+  @include font-normal-inter($font-size: 16px, $font-color: $white);
   font-weight: 600;
   padding: 13px 24px;
   max-height: 52px;
- &.button-success{
+
+  &.button-success {
     background-color: $blue;
   }
-  &.button-success{
+
+  &.button-success {
     background-color: $blue;
   }
-  &.button-sm{
-    width: 54px ;
-    height: 54px ;
+
+  &.button-sm {
+    width: 54px;
+    height: 54px;
   }
-  &.button-md{
-    min-width: 164px ;
+
+  &.button-md {
+    width: 164px;
+
   }
-  &.button-lg{
-    min-width: 483px ;
+
+  &.button-lg {
+    min-width: 100%;
+
   }
-  &.button-icon-search{
+
+  @media (max-width: 360px) {
+    &.button-md {
+      width: 100%;
+    }
+  }
+  @media (min-width: 560px) {
+    &.button-lg {
+      min-width: 483px;
+    }
+  }
+
+  &.button-icon-search {
     background-image: url("../assets/images/icons/search.svg");
-    background-repeat:  no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     width: 52px;
   }

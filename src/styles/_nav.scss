@@ -1,6 +1,24 @@
-.nav{
+.nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 27px 70px;
+  flex-direction: column;
+  padding: 30px;
+
+  .logo {
+    margin-bottom: 20px
+  }
+
+  @media (min-width: 560px) {
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    padding: 27px 70px;
+
+  }
 }

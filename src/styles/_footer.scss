@@ -1,7 +1,12 @@
-.footer{
+.footer {
   grid-area: footer;
-  padding: 70px;
-  .footer__text{
+  padding: 30px;
+
+  .footer__text {
     margin-top: 25px;
+  }
+
+  @media (min-width: 900px) {
+    padding: 70px;
   }
 }

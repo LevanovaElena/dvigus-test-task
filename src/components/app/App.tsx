@@ -3,9 +3,7 @@ import {PageValuation} from "../../pages/valuation/valuation.page";
 
 function App() {
     return (
-        <>
-            <PageValuation/>
-        </>
+        <PageValuation/>
     );
 }
 
